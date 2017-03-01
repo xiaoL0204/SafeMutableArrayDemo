@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files = 'src/*.{h,m}'
+  s.source_files = "src/*"
  # s.exclude_files = 'SafeMutableArrayDemo/src/*.{h,m,mm}'
 
   # s.public_header_files = "Classes/**/*.h"
