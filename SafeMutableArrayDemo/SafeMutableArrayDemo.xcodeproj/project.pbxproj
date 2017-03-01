@@ -15,7 +15,7 @@
 		A12A69011E667142002626CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A68FF1E667142002626CE /* LaunchScreen.storyboard */; };
 		A12A690C1E667143002626CE /* SafeMutableArrayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A690B1E667143002626CE /* SafeMutableArrayDemoTests.m */; };
 		A12A69171E667143002626CE /* SafeMutableArrayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A69161E667143002626CE /* SafeMutableArrayDemoUITests.m */; };
-		A12A69261E66715F002626CE /* NSMutableArray+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A69251E66715F002626CE /* NSMutableArray+XLSafe.m */; };
+		A12A692D1E66BB5E002626CE /* NSMutableArray+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A692C1E66BB5E002626CE /* NSMutableArray+XLSafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		A12A69121E667143002626CE /* SafeMutableArrayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeMutableArrayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12A69161E667143002626CE /* SafeMutableArrayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeMutableArrayDemoUITests.m; sourceTree = "<group>"; };
 		A12A69181E667143002626CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A12A69241E66715F002626CE /* NSMutableArray+XLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+XLSafe.h"; sourceTree = "<group>"; };
-		A12A69251E66715F002626CE /* NSMutableArray+XLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+XLSafe.m"; sourceTree = "<group>"; };
+		A12A692B1E66BB5E002626CE /* NSMutableArray+XLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+XLSafe.h"; sourceTree = "<group>"; };
+		A12A692C1E66BB5E002626CE /* NSMutableArray+XLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+XLSafe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,7 @@
 				A12A68F51E667142002626CE /* AppDelegate.m */,
 				A12A68F71E667142002626CE /* ViewController.h */,
 				A12A68F81E667142002626CE /* ViewController.m */,
-				A12A69241E66715F002626CE /* NSMutableArray+XLSafe.h */,
-				A12A69251E66715F002626CE /* NSMutableArray+XLSafe.m */,
+				A12A692A1E66BB5E002626CE /* src */,
 				A12A68FA1E667142002626CE /* Main.storyboard */,
 				A12A68FD1E667142002626CE /* Assets.xcassets */,
 				A12A68FF1E667142002626CE /* LaunchScreen.storyboard */,
@@ -143,6 +142,15 @@
 				A12A69181E667143002626CE /* Info.plist */,
 			);
 			path = SafeMutableArrayDemoUITests;
+			sourceTree = "<group>";
+		};
+		A12A692A1E66BB5E002626CE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A12A692B1E66BB5E002626CE /* NSMutableArray+XLSafe.h */,
+				A12A692C1E66BB5E002626CE /* NSMutableArray+XLSafe.m */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,9 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12A69261E66715F002626CE /* NSMutableArray+XLSafe.m in Sources */,
 				A12A68F91E667142002626CE /* ViewController.m in Sources */,
 				A12A68F61E667142002626CE /* AppDelegate.m in Sources */,
+				A12A692D1E66BB5E002626CE /* NSMutableArray+XLSafe.m in Sources */,
 				A12A68F31E667141002626CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +519,7 @@
 				A12A691D1E667143002626CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A12A691E1E667143002626CE /* Build configuration list for PBXNativeTarget "SafeMutableArrayDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				A12A69201E667143002626CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A12A69211E667143002626CE /* Build configuration list for PBXNativeTarget "SafeMutableArrayDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				A12A69231E667143002626CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
