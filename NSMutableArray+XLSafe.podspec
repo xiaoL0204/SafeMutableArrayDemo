@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "SafeMutableArrayDemo"
+  s.name         = "NSMutableArray+XLSafe"
   s.version      = "1.0.0"
   s.summary      = "A safety NSMutableArray categary using runtime"
 
