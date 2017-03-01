@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12A68F31E667141002626CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A68F21E667141002626CE /* main.m */; };
+		A12A68F61E667142002626CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A68F51E667142002626CE /* AppDelegate.m */; };
+		A12A68F91E667142002626CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A68F81E667142002626CE /* ViewController.m */; };
+		A12A68FC1E667142002626CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A68FA1E667142002626CE /* Main.storyboard */; };
+		A12A68FE1E667142002626CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12A68FD1E667142002626CE /* Assets.xcassets */; };
+		A12A69011E667142002626CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A68FF1E667142002626CE /* LaunchScreen.storyboard */; };
+		A12A690C1E667143002626CE /* SafeMutableArrayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A690B1E667143002626CE /* SafeMutableArrayDemoTests.m */; };
+		A12A69171E667143002626CE /* SafeMutableArrayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A69161E667143002626CE /* SafeMutableArrayDemoUITests.m */; };
+		A12A69261E66715F002626CE /* NSMutableArray+XLSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A12A69251E66715F002626CE /* NSMutableArray+XLSafe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A12A69081E667142002626CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12A68E61E66713F002626CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12A68ED1E667140002626CE;
+			remoteInfo = SafeMutableArrayDemo;
+		};
+		A12A69131E667143002626CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12A68E61E66713F002626CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12A68ED1E667140002626CE;
+			remoteInfo = SafeMutableArrayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A12A68EE1E667140002626CE /* SafeMutableArrayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeMutableArrayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A68F21E667141002626CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A12A68F41E667142002626CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A12A68F51E667142002626CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A12A68F71E667142002626CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A12A68F81E667142002626CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A12A68FB1E667142002626CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12A68FD1E667142002626CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12A69001E667142002626CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A12A69021E667142002626CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A69071E667142002626CE /* SafeMutableArrayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeMutableArrayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A690B1E667143002626CE /* SafeMutableArrayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeMutableArrayDemoTests.m; sourceTree = "<group>"; };
+		A12A690D1E667143002626CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A69121E667143002626CE /* SafeMutableArrayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeMutableArrayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A69161E667143002626CE /* SafeMutableArrayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeMutableArrayDemoUITests.m; sourceTree = "<group>"; };
+		A12A69181E667143002626CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A69241E66715F002626CE /* NSMutableArray+XLSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+XLSafe.h"; sourceTree = "<group>"; };
+		A12A69251E66715F002626CE /* NSMutableArray+XLSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+XLSafe.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12A68EB1E667140002626CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A69041E667142002626CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A690F1E667143002626CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12A68E51E66713F002626CE = {
+			isa = PBXGroup;
+			children = (
+				A12A68F01E667140002626CE /* SafeMutableArrayDemo */,
+				A12A690A1E667142002626CE /* SafeMutableArrayDemoTests */,
+				A12A69151E667143002626CE /* SafeMutableArrayDemoUITests */,
+				A12A68EF1E667140002626CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12A68EF1E667140002626CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12A68EE1E667140002626CE /* SafeMutableArrayDemo.app */,
+				A12A69071E667142002626CE /* SafeMutableArrayDemoTests.xctest */,
+				A12A69121E667143002626CE /* SafeMutableArrayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12A68F01E667140002626CE /* SafeMutableArrayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A12A68F41E667142002626CE /* AppDelegate.h */,
+				A12A68F51E667142002626CE /* AppDelegate.m */,
+				A12A68F71E667142002626CE /* ViewController.h */,
+				A12A68F81E667142002626CE /* ViewController.m */,
+				A12A69241E66715F002626CE /* NSMutableArray+XLSafe.h */,
+				A12A69251E66715F002626CE /* NSMutableArray+XLSafe.m */,
+				A12A68FA1E667142002626CE /* Main.storyboard */,
+				A12A68FD1E667142002626CE /* Assets.xcassets */,
+				A12A68FF1E667142002626CE /* LaunchScreen.storyboard */,
+				A12A69021E667142002626CE /* Info.plist */,
+				A12A68F11E667141002626CE /* Supporting Files */,
+			);
+			path = SafeMutableArrayDemo;
+			sourceTree = "<group>";
+		};
+		A12A68F11E667141002626CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A12A68F21E667141002626CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A12A690A1E667142002626CE /* SafeMutableArrayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A12A690B1E667143002626CE /* SafeMutableArrayDemoTests.m */,
+				A12A690D1E667143002626CE /* Info.plist */,
+			);
+			path = SafeMutableArrayDemoTests;
+			sourceTree = "<group>";
+		};
+		A12A69151E667143002626CE /* SafeMutableArrayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A12A69161E667143002626CE /* SafeMutableArrayDemoUITests.m */,
+				A12A69181E667143002626CE /* Info.plist */,
+			);
+			path = SafeMutableArrayDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12A68ED1E667140002626CE /* SafeMutableArrayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12A691B1E667143002626CE /* Build configuration list for PBXNativeTarget "SafeMutableArrayDemo" */;
+			buildPhases = (
+				A12A68EA1E667140002626CE /* Sources */,
+				A12A68EB1E667140002626CE /* Frameworks */,
+				A12A68EC1E667140002626CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeMutableArrayDemo;
+			productName = SafeMutableArrayDemo;
+			productReference = A12A68EE1E667140002626CE /* SafeMutableArrayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A12A69061E667142002626CE /* SafeMutableArrayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12A691E1E667143002626CE /* Build configuration list for PBXNativeTarget "SafeMutableArrayDemoTests" */;
+			buildPhases = (
+				A12A69031E667142002626CE /* Sources */,
+				A12A69041E667142002626CE /* Frameworks */,
+				A12A69051E667142002626CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12A69091E667142002626CE /* PBXTargetDependency */,
+			);
+			name = SafeMutableArrayDemoTests;
+			productName = SafeMutableArrayDemoTests;
+			productReference = A12A69071E667142002626CE /* SafeMutableArrayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A12A69111E667143002626CE /* SafeMutableArrayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12A69211E667143002626CE /* Build configuration list for PBXNativeTarget "SafeMutableArrayDemoUITests" */;
+			buildPhases = (
+				A12A690E1E667143002626CE /* Sources */,
+				A12A690F1E667143002626CE /* Frameworks */,
+				A12A69101E667143002626CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12A69141E667143002626CE /* PBXTargetDependency */,
+			);
+			name = SafeMutableArrayDemoUITests;
+			productName = SafeMutableArrayDemoUITests;
+			productReference = A12A69121E667143002626CE /* SafeMutableArrayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12A68E61E66713F002626CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaolin;
+				TargetAttributes = {
+					A12A68ED1E667140002626CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A12A69061E667142002626CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A12A68ED1E667140002626CE;
+					};
+					A12A69111E667143002626CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A12A68ED1E667140002626CE;
+					};
+				};
+			};
+			buildConfigurationList = A12A68E91E66713F002626CE /* Build configuration list for PBXProject "SafeMutableArrayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12A68E51E66713F002626CE;
+			productRefGroup = A12A68EF1E667140002626CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12A68ED1E667140002626CE /* SafeMutableArrayDemo */,
+				A12A69061E667142002626CE /* SafeMutableArrayDemoTests */,
+				A12A69111E667143002626CE /* SafeMutableArrayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12A68EC1E667140002626CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A69011E667142002626CE /* LaunchScreen.storyboard in Resources */,
+				A12A68FE1E667142002626CE /* Assets.xcassets in Resources */,
+				A12A68FC1E667142002626CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A69051E667142002626CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A69101E667143002626CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12A68EA1E667140002626CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A69261E66715F002626CE /* NSMutableArray+XLSafe.m in Sources */,
+				A12A68F91E667142002626CE /* ViewController.m in Sources */,
+				A12A68F61E667142002626CE /* AppDelegate.m in Sources */,
+				A12A68F31E667141002626CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A69031E667142002626CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A690C1E667143002626CE /* SafeMutableArrayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A690E1E667143002626CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A69171E667143002626CE /* SafeMutableArrayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A12A69091E667142002626CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12A68ED1E667140002626CE /* SafeMutableArrayDemo */;
+			targetProxy = A12A69081E667142002626CE /* PBXContainerItemProxy */;
+		};
+		A12A69141E667143002626CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12A68ED1E667140002626CE /* SafeMutableArrayDemo */;
+			targetProxy = A12A69131E667143002626CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A12A68FA1E667142002626CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12A68FB1E667142002626CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A12A68FF1E667142002626CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12A69001E667142002626CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12A69191E667143002626CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A12A691A1E667143002626CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A12A691C1E667143002626CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafeMutableArrayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.SafeMutableArrayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A12A691D1E667143002626CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SafeMutableArrayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.SafeMutableArrayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A12A691F1E667143002626CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafeMutableArrayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.SafeMutableArrayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeMutableArrayDemo.app/SafeMutableArrayDemo";
+			};
+			name = Debug;
+		};
+		A12A69201E667143002626CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SafeMutableArrayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.SafeMutableArrayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeMutableArrayDemo.app/SafeMutableArrayDemo";
+			};
+			name = Release;
+		};
+		A12A69221E667143002626CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafeMutableArrayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.SafeMutableArrayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafeMutableArrayDemo;
+			};
+			name = Debug;
+		};
+		A12A69231E667143002626CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SafeMutableArrayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiaolin.SafeMutableArrayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SafeMutableArrayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12A68E91E66713F002626CE /* Build configuration list for PBXProject "SafeMutableArrayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A69191E667143002626CE /* Debug */,
+				A12A691A1E667143002626CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12A691B1E667143002626CE /* Build configuration list for PBXNativeTarget "SafeMutableArrayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A691C1E667143002626CE /* Debug */,
+				A12A691D1E667143002626CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A12A691E1E667143002626CE /* Build configuration list for PBXNativeTarget "SafeMutableArrayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A691F1E667143002626CE /* Debug */,
+				A12A69201E667143002626CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A12A69211E667143002626CE /* Build configuration list for PBXNativeTarget "SafeMutableArrayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A69221E667143002626CE /* Debug */,
+				A12A69231E667143002626CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12A68E61E66713F002626CE /* Project object */;
+}
