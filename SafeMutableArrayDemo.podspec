@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  									use runtime to secure NSMutableArray's safety.
                    DESC
 
   s.homepage     = "https://github.com/xiaoL0204/SafeMutableArrayDemo"
@@ -91,8 +92,8 @@ Pod::Spec.new do |s|
   #
 
  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files = '/src/*.{h,m,mm}'
-  s.exclude_files = '/src/*.{h,m,mm}'
+  s.source_files = 'src/*.{h,m}'
+ # s.exclude_files = 'SafeMutableArrayDemo/src/*.{h,m,mm}'
 
   # s.public_header_files = "Classes/**/*.h"
 
